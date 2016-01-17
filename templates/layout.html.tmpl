@@ -1,0 +1,9 @@
+<!doctype html>
+<title>sgs</title>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='github-e9bcbd2b27a6b792794dfc31fff5f4f8e7245c761ddb1a44cb19b6a6cc5e4ff7.css') }}">
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='github2-70af51f1bed4904749e6ef486ad11871c8ce4361ac82bb5f96a090b7f5346580.css') }}">
+<div class=page>
+  <h1>Show github source</h1>
+    <div class=content>{{ source }}</div>
+  {% block body %}{% endblock %}
+</div>

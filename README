@@ -1,0 +1,30 @@
+# show_github_source
+
+A proof of concept to show github source in another web application.
+
+
+## Usage
+
+* Install requirements and package, e.g.
+
+    sudo pip install -r requirements.txt
+    sudo pip install .
+
+* Call `show_github_source` from PATH, e.g. with `--help`
+
+    show_github_source --help
+
+
+## Contribute
+
+This project lives in http://github.com/okurz/show_github_source
+
+Feel free to add issues in github or send pull requests.
+
+TODOs and ideas are tracked in github issues.
+
+
+## License
+
+This project is licensed under the MIT license, see LICENSE file for details.
+.css files are from github with corresponding copyright.
